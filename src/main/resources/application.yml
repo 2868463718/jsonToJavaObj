@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: ConsumerBestRecord_OperationConfig
+
+# json对应的实体类的包的根路径，都在javaobj这个包下，JavaObj这个类相当于整个大的json字符串对应的类，所以json对象的属性都是在从这个对象的属性开始，
+classRootPackage: com.elccep.common.enity.javaObj
